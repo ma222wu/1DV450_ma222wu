@@ -1,1 +1,1 @@
-#I think I need at least one commit before I can share repo with repositories
+#I think I need at least one commit before I can share repo with collaborators
