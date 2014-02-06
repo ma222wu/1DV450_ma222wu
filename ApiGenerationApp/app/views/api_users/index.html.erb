@@ -1,0 +1,14 @@
+<p>
+	
+	<%= "there are  #{@apiusers.size} users"%>
+	
+</p>
+
+<p>
+	
+<%= @apiusers.each do |apiuser|%>
+	<%= apiuser.strEmail %>
+	<%= link_to "Show user", api_user_path(apiuser) %>
+	</br>
+<% end %>
+</p>
